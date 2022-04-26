@@ -13,7 +13,7 @@ export default class Reservation {
   }
 
   public duration(): number {
-    return this.checkIn.getTime() - this.checkOut.getTime();
+    return this.checkOut.getDate() - this.checkIn.getDate();
   }
 
   public updateDates(checkIn: Date, checkOut: Date): void {

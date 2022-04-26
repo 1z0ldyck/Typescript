@@ -1,5 +1,5 @@
-import * as exc from '../exceptions/index';
-import Messages from '../enums/messages';
+import * as exc from 'models/exceptions/index';
+import Messages from 'models/enums/messages';
 
 export default class Reservation {
   private roomNumber: number;

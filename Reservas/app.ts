@@ -1,4 +1,4 @@
-import Reservation from './models/entities/reservation';
+import Reservation from 'models/entities/reservation';
 
 const reservation = new Reservation(
   12,

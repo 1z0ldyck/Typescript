@@ -1,0 +1,11 @@
+{
+  "name": "Typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:1z0ldyck/Typescript.git",
+  "author": "1z0ldyck <lucase2040@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ts-node": "^10.7.0"
+  }
+}
